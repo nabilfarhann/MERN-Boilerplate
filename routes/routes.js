@@ -6,6 +6,8 @@ const router = express.Router();
 // @route   POST /anything
 // @desc    POST anything
 router.post("/anything", async (req, res) => {
+
+  // Example of using promises
   async function test() {
     return new Promise(function (resolve, reject) {
       // Your operation
